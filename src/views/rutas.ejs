@@ -1,0 +1,62 @@
+<%include partials/_header%>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" />
+</head>
+<body id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top secundario" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Tren Metropolitano Cochabamba</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/conoce">Conoce Mi Tren</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/horarios">Horarios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" style="color: #00b0ff" href="/rutas">Rutas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Portfolio Grid -->
+  <section class="bg-light page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">RUTAS</h2>
+          <h3 class="section-subheading text-muted">Horarios de funcionamiento del tren en la linea Roja, Amarilla y Roja</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <img src="/img/mapa.jpeg" id="imagenMapa">
+        </div>
+      </div>
+
+      <div class="row maps">
+        <div class="col-lg-12 text-center" id="localizacion">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <%include partials/_footer%>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+<script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+<script src="/js/lefleat.js"></script>
+</body>
+</html>

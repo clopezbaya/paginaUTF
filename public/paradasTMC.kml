@@ -1,0 +1,8571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>1.Paradas TMC.kml</name>
+	<Style id="IconStyle00220">
+		<IconStyle>
+			<color>ff7fff00</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/tram.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ranger_station00">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="IconStyle00000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#IconStyle0010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#IconStyle0070</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_tram2000">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/tram.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle0050">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffa9e600</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PolyStyle0080">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle0014</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle0060</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="IconStyle00310">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/tram.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="IconStyle0051">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/tram.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="IconStyle0070">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/subway.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle0060">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffffffaa</color>
+			<width>1.7</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00f0f0f0</color>
+		</PolyStyle>
+	</Style>
+	<Style id="IconStyle0010">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/subway.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="PolyStyle0030">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#PolyStyle0070</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#PolyStyle0013</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ranger_station00">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle0070">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffe65c00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00f0f0f0</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_tram110">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/tram.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_tram210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_tram2000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_tram110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="IconStyle0080">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#IconStyle00310</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#IconStyle0051</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ranger_station1">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle0013">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffe65c00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00f0f0f0</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="IconStyle00400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#IconStyle00220</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#IconStyle0023</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ranger_station1">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle0014">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffffffaa</color>
+			<width>1.7</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00f0f0f0</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ranger_station00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ranger_station1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="IconStyle0023">
+		<IconStyle>
+			<color>ff7fff00</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/tram.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_homegardenbusiness0000">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_homegardenbusiness010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_homegardenbusiness0000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_homegardenbusiness110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_homegardenbusiness110">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>1.Paradas TMC</name>
+		<Folder>
+			<name>1.1 Parada Estación Central</name>
+			<Folder>
+				<name>Ubicación Parada</name>
+				<Placemark id="ID_00016">
+					<name>ECSA</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EC</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EC</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Estacion Central San Antonio</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Estación Central</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>70373,88</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>0+000</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>0</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00000</styleUrl>
+					<Point>
+						<coordinates>-66.1542637679437,-17.40986380827562,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Area de Emplazamiento de la Parada</name>
+				<Placemark id="ID_00016">
+					<name>EC</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EC</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EC</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Estacion Central San Antonio</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Estación Central</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>70373,879641</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0030</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.15459864060553,-17.40704054153929,0 -66.15460319331916,-17.40720021999212,0 -66.15460326552351,-17.40720275243683,0 -66.15462127559672,-17.40783442903904,0 -66.15462144925307,-17.40784051981506,0 -66.15462357293758,-17.40791500541401,0 -66.1546236736534,-17.40791853789931,0 -66.15464705693226,-17.40873868451413,0 -66.15464715212718,-17.40874202341266,0 -66.15466661966832,-17.40942483912052,0 -66.1546667516525,-17.40942946843948,0 -66.15466802420937,-17.40947410314605,0 -66.15466835834739,-17.40948582298529,0 -66.15468465488389,-17.41005742463263,0 -66.15468530471659,-17.41008021767033,0 -66.15468536035937,-17.41008216935483,0 -66.15468676374101,-17.41013139333677,0 -66.15463693891859,-17.41042883834116,0 -66.15467717237597,-17.41044553128871,0 -66.15471898854621,-17.41045813937217,0 -66.15476193883471,-17.4104665273619,0 -66.15497813021106,-17.41049765693813,0 -66.15519603464406,-17.41052876988636,0 -66.15518647788046,-17.41059253613773,0 -66.15518393298029,-17.41060951663889,0 -66.15518051745514,-17.41063230625921,0 -66.1551792611906,-17.41064068850862,0 -66.15517893095685,-17.41064349028663,0 -66.15517760826343,-17.41065471231638,0 -66.15517692046278,-17.41066054777174,0 -66.15517323587669,-17.41069180861669,0 -66.15517097053298,-17.41071102828587,0 -66.15516164027449,-17.410770708984,0 -66.15516161743338,-17.41077085508629,0 -66.15516163420646,-17.41077141666222,0 -66.15516121035586,-17.41077438467291,0 -66.15515193692391,-17.41083339346042,0 -66.15515167778153,-17.41083504243669,0 -66.15513886147259,-17.41091659519321,0 -66.15513337043332,-17.41095153574857,0 -66.15512910410482,-17.41098121693321,0 -66.15512502022577,-17.41101323869244,0 -66.15510821835356,-17.41112652053682,0 -66.15510176914252,-17.41116928707109,0 -66.15510144123323,-17.411171461529,0 -66.15508611406898,-17.41127310014266,0 -66.15507734561622,-17.41133169074999,0 -66.15504516056811,-17.41154836668128,0 -66.15504423009624,-17.41155463078485,0 -66.15499911237356,-17.41185837058968,0 -66.1549635458184,-17.41209741304204,0 -66.15495628805647,-17.41214663983247,0 -66.1549473907758,-17.41220698683276,0 -66.15493979335218,-17.41225851732844,0 -66.15493676459515,-17.41227906024738,0 -66.15493053596913,-17.41232130665034,0 -66.15492522073457,-17.41235735784206,0 -66.15492518446466,-17.41235760384684,0 -66.15492448073907,-17.41236237694512,0 -66.15491702741012,-17.41240128678442,0 -66.15491089315141,-17.41243331044629,0 -66.15490217617779,-17.41247881704426,0 -66.1548972347194,-17.41249863884787,0 -66.15488985997345,-17.41251534577733,0 -66.15488174467934,-17.41252812055482,0 -66.15487623341306,-17.41253504318877,0 -66.15486321912965,-17.41254756391087,0 -66.15486320011702,-17.41254758220248,0 -66.15486078838779,-17.41254990246755,0 -66.15483572918724,-17.41256520972857,0 -66.15482498086963,-17.4125694578864,0 -66.15481126907311,-17.4125728838168,0 -66.15480532666014,-17.41257436854482,0 -66.15480457680832,-17.41257444990696,0 -66.15480231009596,-17.41257512224148,0 -66.15479733258672,-17.41257523593602,0 -66.15479234813326,-17.41257577677039,0 -66.15478291734907,-17.4125755652032,0 -66.15477348656493,-17.41257535363559,0 -66.15476651924786,-17.41257418824359,0 -66.15476169436631,-17.41257338120704,0 -66.15473726812644,-17.41256580628441,0 -66.15472625948161,-17.41256040402979,0 -66.15472119265762,-17.41255780974248,0 -66.1546994453376,-17.41254616091265,0 -66.15465760626829,-17.41252375003995,0 -66.15458044851434,-17.41248223422987,0 -66.15454316721645,-17.41246217448913,0 -66.15451296668341,-17.41244592464837,0 -66.15446722041973,-17.41242131018544,0 -66.15446601846455,-17.4124206634552,0 -66.1543520324576,-17.41235933150478,0 -66.15435117988709,-17.41235887276556,0 -66.15434654516673,-17.41235637897978,0 -66.15434415067358,-17.41235510038278,0 -66.15423945640984,-17.41229934015831,0 -66.15422856146814,-17.4122934495106,0 -66.15403646016638,-17.41218958454672,0 -66.15400355249557,-17.41217179206189,0 -66.15394230665086,-17.41213896932688,0 -66.15393703405175,-17.41213637283312,0 -66.15393547784193,-17.41213560647692,0 -66.15380063787411,-17.41206920440628,0 -66.1537982092495,-17.4120681746149,0 -66.15377606903054,-17.41205878666315,0 -66.15375503535866,-17.41204650064005,0 -66.15373685639396,-17.41202974977053,0 -66.15372381904811,-17.41201229472188,0 -66.15371821550656,-17.41200479241996,0 -66.15371407679052,-17.4119972711925,0 -66.15371865040797,-17.41193273831074,0 -66.15371979643379,-17.41191656808685,0 -66.15371983912827,-17.41191596567494,0 -66.15372532355046,-17.41183858135191,0 -66.1537096227691,-17.41130611098529,0 -66.15370659037319,-17.41118404543142,0 -66.15370650029683,-17.41118041951735,0 -66.15370519469195,-17.41112786403191,0 -66.15370516386226,-17.41112677067886,0 -66.15370122458194,-17.4110018428444,0 -66.15369921538665,-17.41096770242825,0 -66.15369909217836,-17.41096560886219,0 -66.15369629275581,-17.41091804084495,0 -66.15369614555708,-17.41090630368965,0 -66.15369591910162,-17.41088824687095,0 -66.15369569264591,-17.41087019005231,0 -66.15369475426296,-17.41079536674438,0 -66.15369434885315,-17.41078314398899,0 -66.15369432423259,-17.41078240170129,0 -66.15369132806063,-17.41069206977486,0 -66.15368967872354,-17.4106345538623,0 -66.15368965075939,-17.41063357869409,0 -66.15368929736437,-17.41062125506154,0 -66.153688262079,-17.41058515248482,0 -66.15368691051881,-17.41053802077998,0 -66.15368690653806,-17.41053788196317,0 -66.15368610251444,-17.41050984401278,0 -66.15368542095642,-17.41048607670086,0 -66.15368226737331,-17.41045796114556,0 -66.15368055308353,-17.41038243836103,0 -66.15368053691844,-17.41038172621144,0 -66.15367950008302,-17.41033604865419,0 -66.15367949390448,-17.41033577645934,0 -66.15367800290507,-17.41030192146529,0 -66.15367362880461,-17.41020221677638,0 -66.15367293322431,-17.41017781433496,0 -66.15367290598208,-17.41017685861936,0 -66.15366806393342,-17.41000698953729,0 -66.15366803301347,-17.41000590480333,0 -66.15366226563837,-17.40980357408565,0 -66.15366225379962,-17.40980315875976,0 -66.15366034333651,-17.40973613617875,0 -66.15365964385158,-17.40971159697513,0 -66.1536571927445,-17.4096256077702,0 -66.15365714274296,-17.40962385362799,0 -66.15365197729942,-17.40944264113578,0 -66.15365195959752,-17.40944202012427,0 -66.15365139823126,-17.40942232648571,0 -66.15365043079741,-17.4093883873545,0 -66.15364735642028,-17.40928053341926,0 -66.15364670332788,-17.40925762195102,0 -66.15364669240756,-17.40925723885027,0 -66.15364123243312,-17.40906569508813,0 -66.15364119266161,-17.40906429984833,0 -66.15363548610421,-17.4088641063648,0 -66.15363548472466,-17.40886405796814,0 -66.1536298288375,-17.40866564282332,0 -66.1536298246988,-17.40866549763344,0 -66.15362414499572,-17.40846624776268,0 -66.15362412936284,-17.40846569934607,0 -66.15361909369568,-17.40828904356535,0 -66.1536190746138,-17.40828837415715,0 -66.15361401720438,-17.4081109562458,0 -66.15361400053672,-17.40811037153171,0 -66.15360893184443,-17.40793255841897,0 -66.15360892023405,-17.40793215111993,0 -66.15360851309258,-17.40791786835182,0 -66.15360443278486,-17.40777472891427,0 -66.15360378140498,-17.40775187815789,0 -66.15360375427761,-17.40775092651435,0 -66.15360159275914,-17.40767509935704,0 -66.15360156287252,-17.40767405092029,0 -66.15360111384486,-17.40765829881704,0 -66.15360001150557,-17.40761962830095,0 -66.15360000909129,-17.40761954360685,0 -66.15359871647503,-17.40757419813265,0 -66.15359871107272,-17.40757400861846,0 -66.15359428467235,-17.40741872909826,0 -66.15359426099262,-17.40741789840719,0 -66.15358827112864,-17.40720777283429,0 -66.15358822361648,-17.40720610610089,0 -66.15358426382866,-17.40706719645938,0 -66.15360212588048,-17.40706672714073,0 -66.15388039786541,-17.40705941544137,0 -66.15429503552396,-17.4070485199576,0 -66.15459864060553,-17.40704054153929,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder id="FeatureLayer0">
+			<name>1.2 Paradas Linea Roja</name>
+			<Snippet maxLines="0"></Snippet>
+			<Folder>
+				<name>Ubicación Parada (Diseño Final)</name>
+				<Placemark id="ID_00002">
+					<name>ER1-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER1-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER1-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>El Arco</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía Doble</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>199,9968</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>1+300</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>2</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle0080</styleUrl>
+					<Point>
+						<coordinates>-66.15421299957055,-17.42355651363623,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00003">
+					<name>ER2-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER2-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER2-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Santa Bárbara</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía Doble</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>200,001393</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>1+932</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>3</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle0080</styleUrl>
+					<Point>
+						<coordinates>-66.15223130883901,-17.42875160814664,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00004">
+					<name>ER3-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER3-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER3-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Vidrio Lux</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía Doble</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>199,99633</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>2+646</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>4</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle0080</styleUrl>
+					<Point>
+						<coordinates>-66.14859652391976,-17.43408488939716,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00005">
+					<name>ER4-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER4-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER4-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>OTB Universitario Bajo</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía Doble</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>199,996194</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>3+457</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>5</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle0080</styleUrl>
+					<Point>
+						<coordinates>-66.14441118641722,-17.44018464708707,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00006">
+					<name>ER5-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER5-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER5-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Politécnico</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía Doble</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>199,995086</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>4+185</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>6</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle0080</styleUrl>
+					<Point>
+						<coordinates>-66.13949742348034,-17.44469530410123,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00007">
+					<name>ER6-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER6AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER6AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>UMSS-Facultad de Agronomía</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía Simple</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>139,996036</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>4+735</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>7</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle0080</styleUrl>
+					<Point>
+						<coordinates>-66.13506092575233,-17.44725712185693,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00008">
+					<name>ER7-EM</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER7-EM</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER7-EM</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>UMSS-Facultad de Agronomia 2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Estación Municipal</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>5635,441211</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>5+472</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>8</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_ranger_station00</styleUrl>
+					<Point>
+						<coordinates>-66.12980683369291,-17.45148358472728,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Area de Emplazamiento de la Parada (Actualmente)</name>
+				<Placemark id="ID_00002">
+					<name>ER1-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER1-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER1-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>El Arco</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía Doble</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>199,9968</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0050</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.15420363719339,-17.42333024782721,0 -66.15424122844229,-17.42333169707336,0 -66.15422236128038,-17.42378278108926,0 -66.15418477094256,-17.42378133180909,0 -66.15419104566399,-17.42363129954547,0 -66.15420363719339,-17.42333024782721,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00003">
+					<name>ER2-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER2-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER2-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Santa Bárbara</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía Doble</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>200,001393</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0050</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.15238429227202,-17.42857923897977,0 -66.15241089235181,-17.42860477779181,0 -66.15237763754999,-17.42863669843977,0 -66.15211158333102,-17.42889205597417,0 -66.15207832785944,-17.42892397599686,0 -66.15205172466105,-17.42889843630493,0 -66.15208498177496,-17.42886651638645,0 -66.15238429227202,-17.42857923897977,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00004">
+					<name>ER3-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER3-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER3-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Vidrio Lux</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía Doble</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>199,99633</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0050</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.14875001687646,-17.43391293539147,0 -66.14877654225509,-17.43393854567298,0 -66.14874319246506,-17.43397037539377,0 -66.14847638339522,-17.43422501274664,0 -66.14844303407497,-17.43425684240929,0 -66.14841650540156,-17.43423123107286,0 -66.14844985701646,-17.43419940144748,0 -66.14848638919281,-17.43416453594559,0 -66.14875001687646,-17.43391293539147,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00005">
+					<name>ER4-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER4-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER4-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>OTB Universitario Bajo</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía Doble</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>199,996194</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0050</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.14450863273174,-17.43997842621077,0 -66.14454155027175,-17.43999591960434,0 -66.14451876745672,-17.44003541423768,0 -66.14433652116172,-17.4403513735968,0 -66.14431374054597,-17.44039086822545,0 -66.14428082453033,-17.44037337443016,0 -66.14450863273174,-17.43997842621077,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00006">
+					<name>ER5-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER5-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER5-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Politécnico</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía Doble</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>199,995086</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0050</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.13968916686898,-17.44456338634287,0 -66.13970857737752,-17.44459432358534,0 -66.13966828843172,-17.44461761359763,0 -66.13934596676698,-17.44480393320586,0 -66.13930567775355,-17.44482722202867,0 -66.13928626787498,-17.44479628476206,0 -66.13968916686898,-17.44456338634287,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00007">
+					<name>ER6-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER6AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER6AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>UMSS-Facultad de Agronomía</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía Simple</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>139,996036</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0050</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.13489126875704,-17.44733674309828,0 -66.13521359887876,-17.44715043148593,0 -66.13523058096743,-17.44717750334345,0 -66.13490825275365,-17.4473638127609,0 -66.13489126875704,-17.44733674309828,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00008">
+					<name>ER7-EM</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>ER7-EM</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Nun</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>ER7-EM</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>UMSS-Facultad de Agronomia 2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Estación Municipal</td>
+
+</tr>
+
+<tr>
+
+<td>Supm2</td>
+
+<td>5635,441211</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0050</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.13036352536481,-17.45102495955413,0 -66.1303922920539,-17.45104835051208,0 -66.1293917234301,-17.45218810181428,0 -66.129232880082,-17.45196928971371,0 -66.12923084887099,-17.45195784292881,0 -66.12923067951803,-17.45194623244264,0 -66.12923237606766,-17.45193473556554,0 -66.12930585830975,-17.45184878402202,0 -66.12942256551868,-17.45171113432073,0 -66.12949970298466,-17.45162064830168,0 -66.12951460255245,-17.45160082007441,0 -66.12952613504535,-17.4515790221541,0 -66.12953402407132,-17.45155577695987,0 -66.12954511939228,-17.45152440052927,0 -66.12954860686443,-17.45151475664366,0 -66.12955344752702,-17.45150566695951,0 -66.12955954875225,-17.45149730541083,0 -66.1295667937911,-17.45148983199848,0 -66.12963310829952,-17.45140776668866,0 -66.12973085501726,-17.45128553969608,0 -66.12986212245035,-17.45112885529159,0 -66.12993952063044,-17.45103440683451,0 -66.13000868588379,-17.45094909742998,0 -66.13011206410928,-17.45082486095089,0 -66.13013373505299,-17.45084161887373,0 -66.13025589002729,-17.45093554666745,0 -66.13034216532756,-17.45100722386703,0 -66.13036352536481,-17.45102495955413,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder id="FeatureLayer0">
+			<name>1.3 Paradas Linea Verde</name>
+			<Snippet maxLines="0"></Snippet>
+			<Folder>
+				<name>Ubicación Parada</name>
+				<Placemark id="ID_00002">
+					<name>EV1-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV1-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV1-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Aroma</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>175</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>0+849</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>1</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.16096456134376,-17.41118072825672,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00001">
+					<name>EV2-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV2-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV2-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Aeropuerto</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>1+767</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>2</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.16868105691042,-17.40745966419106,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00000">
+					<name>EV3-ADV</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV3-ADV</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV3-ADV</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Parque Mca. Santa Cruz</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>2+978</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>3</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.17872992176117,-17.40232952698434,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00003">
+					<name>EV4-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV4-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV4-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Circunvalación Beijin</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>3+956</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>4</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.18759349398339,-17.40048118530668,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00004">
+					<name>EV5-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV5-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV5-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Juan Muñoz Reyes</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>175</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>4+817</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>5</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.1956874712514,-17.40025161567316,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00005">
+					<name>EV6-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV6-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV6-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Hospital Elizabeth Seton, Hospital CNSS</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>6+227</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>6</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.20894197518061,-17.39986900590427,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00006">
+					<name>EV7-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV7-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV7-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>UPB</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>7+397</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>7</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.21994060554549,-17.39955575753929,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00007">
+					<name>EV8-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV8-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV8-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>OTB-Barrio Ferroviario</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>8+450</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>8</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.22984050748488,-17.39927531045847,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00015">
+					<name>EV9-EM</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV9-EM</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV9-EM</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Cocapiruha</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Estación Municipal</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>6599,45</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>9+871</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>9</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_ranger_station1</styleUrl>
+					<Point>
+						<coordinates>-66.24320037397672,-17.39906715002899,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00008">
+					<name>EV10-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV10-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV10-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Piñami</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>10+857</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>10</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.25246674213992,-17.39862405861521,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00009">
+					<name>EV11-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV11-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV11-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Av. Martin Cardenas</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>12+279</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>11</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.26579140992258,-17.39878024105875,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00010">
+					<name>EV12-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV12-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV12-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Terminal de Buses Quillacollo</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>175</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>13+200</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>12</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.27417018997401,-17.40088705946494,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00014">
+					<name>EV13-EM</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV13-EM</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV13-EM</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Quillacollo</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Estación Municipal</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>6014,23</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>14+036</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>13</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_ranger_station1</styleUrl>
+					<Point>
+						<coordinates>-66.28187122282966,-17.4020453479771,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00017">
+					<name>EV14-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV14-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>17</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV14-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Fabrica Manaco</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>15+179</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>14</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.29261943277635,-17.40182500980745,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00018">
+					<name>EV15-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV15-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV15-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Cementerio de Vinto</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>16+200</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>15</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.30220973066383,-17.4016140719178,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00023">
+					<name>EV16-EM</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV16-EM</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>23</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV16-EM</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Vinto</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Estación Municipal</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>9070,32</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>17+848</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>16</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_ranger_station1</styleUrl>
+					<Point>
+						<coordinates>-66.3166996048397,-17.39904919456609,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00019">
+					<name>EV17-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV17-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>17</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV17-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Alto Mirador</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>175</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>18+823</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>17</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.32341313470181,-17.40329075397957,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00020">
+					<name>EV18-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV18-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV18-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Centro de Salud Vinto Chico</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>175</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>20+164</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>18</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.3261160439844,-17.41473167323662,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00021">
+					<name>EV19-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV19-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>21</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV19-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Sipe Sipe 1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>22+024</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>19</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.32758328699623,-17.43125128494294,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00013">
+					<name>EV20-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV20-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV20-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Cotapachi - Sipe Sipe 2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>139,99</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>23+076</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>20</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.32830311514319,-17.44063316063986,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00012">
+					<name>EV21-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV21-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>21</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV21-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Campos de Amiraya</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>139,98</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>24+577</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>21</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.33006137368855,-17.45353558624862,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00011">
+					<name>EV22-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV22-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>22</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV22-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Sipe Sipe 3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>139,99</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>25+800</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>22</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#IconStyle00400</styleUrl>
+					<Point>
+						<coordinates>-66.3313601423142,-17.464400399638,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00022">
+					<name>EV23-EM</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV23-EM</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>22</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>23</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV23-EM</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Suticollo</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Estación Municipal</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>2064,9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PK_Aprox</td>
+
+<td>26+651</td>
+
+</tr>
+
+<tr>
+
+<td>ORIG_FID</td>
+
+<td>23</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_ranger_station1</styleUrl>
+					<Point>
+						<coordinates>-66.33201303196878,-17.47214438672037,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Area de Emplazamiento de la Parada (Actualmente)</name>
+				<Placemark id="ID_00002">
+					<name>EV1-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV1-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV1-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Aroma</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>175</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.16116871308913,-17.41106764234582,0 -66.16117151463423,-17.41107316162761,0 -66.16118313280212,-17.41109605040195,0 -66.16114086054903,-17.4111158267748,0 -66.1608026822352,-17.41127403738505,0 -66.1607604099098,-17.41129381366481,0 -66.16074879178876,-17.41127092486973,0 -66.16074599025642,-17.41126540558578,0 -66.16078826257584,-17.41124562930832,0 -66.16112644084204,-17.41108741871635,0 -66.16115735497775,-17.41107295605144,0 -66.16116871308913,-17.41106764234582,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00001">
+					<name>EV2-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV2-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV2-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Aeropuerto</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.16888016123877,-17.40733825656331,0 -66.16888314878715,-17.40734368573657,0 -66.16889773370683,-17.40737019042633,0 -66.16885615562701,-17.40739127864138,0 -66.16852353068005,-17.40755998399752,0 -66.16848195252308,-17.40758107212156,0 -66.16846736765632,-17.40755456740805,0 -66.16846438011881,-17.40754913822998,0 -66.16850595826938,-17.4075280501088,0 -66.1688385831654,-17.40735934477549,0 -66.16885825946672,-17.40734936504559,0 -66.16888016123877,-17.40733825656331,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00000">
+					<name>EV3-ADV</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV3-ADV</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV3-ADV</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Parque Mca. Santa Cruz</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.17892810032983,-17.40220673563457,0 -66.17894591309503,-17.40223854663225,0 -66.1789044961636,-17.40225992382857,0 -66.17857316039935,-17.40243094103743,0 -66.17853174338971,-17.40245231814334,0 -66.17851393068719,-17.40242050711655,0 -66.17855534769056,-17.40239913001356,0 -66.1788866834047,-17.40222811282797,0 -66.17892810032983,-17.40220673563457,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00003">
+					<name>EV4-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV4-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV4-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Circunvalación Beijin</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.18782794187409,-17.40045640856499,0 -66.18782906287258,-17.40049250939698,0 -66.1877820611694,-17.40049385472048,0 -66.18740604758148,-17.40050461690542,0 -66.18735904588767,-17.40050596212812,0 -66.18735792498238,-17.40046986130688,0 -66.18740492666686,-17.40046851608308,0 -66.18778094018022,-17.40045775388959,0 -66.18781987137119,-17.40045663956695,0 -66.18782794187409,-17.40045640856499,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00004">
+					<name>EV5-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV5-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV5-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Juan Muñoz Reyes</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>175</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.19592198916284,-17.40022908510041,0 -66.19592297144069,-17.40026067348945,0 -66.19587596955817,-17.40026202074067,0 -66.19549995453556,-17.4002727983473,0 -66.19545295266244,-17.40027414549777,0 -66.1954519704661,-17.40024255711808,0 -66.19549897233111,-17.40024120996669,0 -66.19587498728848,-17.40023043235255,0 -66.19592198916284,-17.40022908510041,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00005">
+					<name>EV6-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV6-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV6-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Hospital Elizabeth Seton, Hospital CNSS</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.20917642360706,-17.39984420289579,0 -66.20917754883833,-17.39988030421168,0 -66.20913054666441,-17.3998816546196,0 -66.20875452931006,-17.3998924574799,0 -66.20870752714538,-17.39989380778703,0 -66.20870640200732,-17.39985770648176,0 -66.20875340416265,-17.39985635617355,0 -66.20912942144246,-17.39984555330475,0 -66.20917642360706,-17.39984420289579,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00006">
+					<name>EV7-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV7-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV7-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>UPB</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.22017506824555,-17.39953106822117,0 -66.22017544271937,-17.39954328946946,0 -66.22017617445937,-17.39956717038887,0 -66.22012917125789,-17.39956849797582,0 -66.21975314568346,-17.39957911826842,0 -66.2197061424913,-17.39958044575465,0 -66.21970503637067,-17.39954434359756,0 -66.2197520395535,-17.39954301611028,0 -66.22012806505343,-17.39953239580919,0 -66.22017506824555,-17.39953106822117,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00007">
+					<name>EV8-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV8-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV8-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>OTB-Barrio Ferroviario</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.23007496309025,-17.39925054341593,0 -66.23007608235771,-17.39928664549079,0 -66.23002907935012,-17.39928798874586,0 -66.2296530553261,-17.39929873438335,0 -66.22960605232768,-17.39930007753767,0 -66.2296049331534,-17.39926397547335,0 -66.22965193614247,-17.39926263231795,0 -66.22991367249607,-17.39925515274714,0 -66.23007496309025,-17.39925054341593,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00015">
+					<name>EV9-EM</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV9-EM</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV9-EM</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Cocapiruha</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Estación Municipal</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>6599,447034</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.24396584392679,-17.39885093503423,0 -66.24396739635142,-17.39890064868156,0 -66.24396777174297,-17.39891266993586,0 -66.24383594208227,-17.39891646463718,0 -66.24384599090254,-17.39924631152199,0 -66.24375920792625,-17.39924880948967,0 -66.24376035786611,-17.39927126244979,0 -66.24272240736903,-17.39929718167261,0 -66.24271628440113,-17.39927882469533,0 -66.24263380481007,-17.39928119910665,0 -66.24262210316306,-17.39924603128252,0 -66.24262143357001,-17.39924401682935,0 -66.24261424622941,-17.39922241755167,0 -66.24261398857868,-17.39922164454113,0 -66.24261269602259,-17.39921776013763,0 -66.24261203022429,-17.39921576061879,0 -66.24261094479553,-17.39921249640144,0 -66.24261072509526,-17.39921183415174,0 -66.24260931656519,-17.39920760340686,0 -66.24260818551164,-17.39920420248481,0 -66.24260488961433,-17.3991942992311,0 -66.24260408653245,-17.39919188387747,0 -66.24260362396777,-17.39919049622321,0 -66.24260282854121,-17.39918810632973,0 -66.2426022940686,-17.39918649886253,0 -66.24259447834311,-17.39916300861446,0 -66.2425943519932,-17.39916262930878,0 -66.24259418661931,-17.39916213426677,0 -66.24258444664049,-17.39913285978021,0 -66.24258392474938,-17.39913129382551,0 -66.24257462039525,-17.39910332780175,0 -66.24257260605256,-17.39909727279038,0 -66.24256769235305,-17.3990825070687,0 -66.24256670025092,-17.39907952744846,0 -66.2425665760895,-17.39907915533838,0 -66.24256646786219,-17.39907883085012,0 -66.24256505503179,-17.39907458320908,0 -66.2425649868937,-17.39907437998368,0 -66.24256321204635,-17.39906904536966,0 -66.24256178992157,-17.39906476673396,0 -66.24255709209572,-17.39905065053185,0 -66.24255684549483,-17.39904990633547,0 -66.24255430922935,-17.39904228757358,0 -66.24255227225964,-17.39903850641959,0 -66.24255134061696,-17.39903677771253,0 -66.24255109799998,-17.39903638026369,0 -66.24254754183782,-17.39903130873428,0 -66.24254733496163,-17.39903105453539,0 -66.24254680535178,-17.39903046240968,0 -66.24254553279343,-17.39902903379126,0 -66.24254520139709,-17.39902866102028,0 -66.24254323496569,-17.39902645391052,0 -66.24254300540723,-17.39902621924045,0 -66.24253969524405,-17.39902327150355,0 -66.24253833672807,-17.39902206216866,0 -66.24253796451288,-17.39902176985676,0 -66.24253464916703,-17.39901943551191,0 -66.24253275459702,-17.3990181019143,0 -66.24252714014185,-17.3990150335739,0 -66.24252671038016,-17.39901482700155,0 -66.24252085098854,-17.39901243432832,0 -66.24252053453218,-17.39901232853524,0 -66.24251871952943,-17.39901181398945,0 -66.24251448585402,-17.39901061395216,0 -66.24251415980086,-17.39901053558537,0 -66.24250789611509,-17.39900949157147,0 -66.24250740777356,-17.39900943962194,0 -66.24250095687378,-17.39900908860868,0 -66.24246482843594,-17.39901012791908,0 -66.24245712547157,-17.3990103499049,0 -66.24245562761651,-17.39901039257803,0 -66.24245172445255,-17.39901050450969,0 -66.24242998363204,-17.39901113040649,0 -66.24242780057216,-17.3990111944703,0 -66.2424256267288,-17.39901125645683,0 -66.2424228699293,-17.39901133573632,0 -66.24242240363594,-17.39899638182819,0 -66.24242155623064,-17.39896925313884,0 -66.24242151506053,-17.39896797934291,0 -66.24242117873857,-17.39895718147841,0 -66.24242116303817,-17.39895669732494,0 -66.24242081162539,-17.39894541564209,0 -66.24242045955074,-17.39893413439905,0 -66.24242010752818,-17.39892285238105,0 -66.24241925278427,-17.39889544744879,0 -66.24286744683211,-17.39888254849439,0 -66.24286644938272,-17.398850606469,0 -66.24315110379823,-17.39884241371791,0 -66.24315109030908,-17.39884193510664,0 -66.24315071550912,-17.39882991032894,0 -66.2431507626074,-17.39882990877533,0 -66.24315093203487,-17.39882990395224,0 -66.24315321673514,-17.39882983797823,0 -66.24315627103773,-17.39882975012389,0 -66.2431945957069,-17.39882864734349,0 -66.24319761783435,-17.39882856124844,0 -66.24319784586424,-17.39882855337719,0 -66.24320093058708,-17.39882846594272,0 -66.24320236412406,-17.3988284245793,0 -66.24322179038651,-17.398827864157,0 -66.24322281212527,-17.39882783473842,0 -66.24323664090996,-17.39882743724874,0 -66.24323718308943,-17.39882742104311,0 -66.24324451328128,-17.39882721151052,0 -66.24324454130962,-17.39882809874769,0 -66.24324490331526,-17.39883971382189,0 -66.24343044682192,-17.39883437311983,0 -66.24343044725627,-17.39883472698388,0 -66.24344783518512,-17.39883422710336,0 -66.24347603608689,-17.39883341590137,0 -66.24347702230337,-17.39886500392392,0 -66.2435488789621,-17.39886293572709,0 -66.24396584392679,-17.39885093503423,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00008">
+					<name>EV10-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV10-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV10-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Piñami</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.25270118813314,-17.39859918337917,0 -66.25270232533965,-17.39863528556903,0 -66.25265532235183,-17.39863665035806,0 -66.25227929848494,-17.39864756826755,0 -66.25223229550605,-17.39864893295588,0 -66.25223115839273,-17.39861283077639,0 -66.2522781613623,-17.39861146608705,0 -66.25265418515463,-17.39860054816928,0 -66.25270118813314,-17.39859918337917,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00009">
+					<name>EV11-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV11-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV11-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Av. Martin Cardenas</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.26602368714582,-17.39881965070989,0 -66.26601420710026,-17.39885460416055,0 -66.26596869965365,-17.39884322688479,0 -66.26560464033702,-17.39875220833218,0 -66.26555913295446,-17.39874083096982,0 -66.26556861307418,-17.39870587755178,0 -66.26561412044931,-17.39871725491086,0 -66.26597817970662,-17.39880827343743,0 -66.26602368714582,-17.39881965070989,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00010">
+					<name>EV12-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV12-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV12-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Terminal de Buses Quillacollo</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>175</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.27440180362952,-17.40092903917094,0 -66.27439788270118,-17.40094339363615,0 -66.27439345325263,-17.40095960978337,0 -66.27434796559653,-17.40094815674252,0 -66.27398406460496,-17.40085653206979,0 -66.27393857701315,-17.40084507894247,0 -66.27394692745477,-17.40081450835869,0 -66.27399241504013,-17.40082596148317,0 -66.27435631597992,-17.40091758613295,0 -66.27440180362952,-17.40092903917094,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00014">
+					<name>EV13-EM</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV13-EM</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV13-EM</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Quillacollo</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Estación Municipal</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>6014,232328</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.28226905454419,-17.4018027730096,0 -66.28228954647996,-17.40182748956374,0 -66.28242763803554,-17.4019296258912,0 -66.28250361373566,-17.40197682572962,0 -66.28247705837035,-17.40209597210152,0 -66.28247583997137,-17.40210143870589,0 -66.28245677096368,-17.40218699578126,0 -66.28245686289621,-17.40218702955476,0 -66.28245694654834,-17.4021870797513,0 -66.28245702083728,-17.4021871419465,0 -66.28245708403291,-17.40218721666801,0 -66.28245712987011,-17.40218730052326,0 -66.28245716184996,-17.4021873897016,0 -66.28245717596259,-17.40218748359716,0 -66.28245717454475,-17.40218757948585,0 -66.28245715421767,-17.40218767291202,0 -66.28245711731802,-17.40218776115156,0 -66.28245706675658,-17.40218784148816,0 -66.28245700025363,-17.40218791278838,0 -66.28245692414757,-17.40218797348499,0 -66.28245683680606,-17.40218801749259,0 -66.28245674219004,-17.40218804872356,0 -66.28245664439892,-17.4021880617218,0 -66.28245654452368,-17.40218806036056,0 -66.28245644893532,-17.4021880408683,0 -66.28245635702724,-17.40218800544152,0 -66.28245630522552,-17.40218797552214,0 -66.28244830077291,-17.40222370956239,0 -66.28244794981433,-17.40222527458359,0 -66.28244685003922,-17.40223019058854,0 -66.28243732173513,-17.40224458031205,0 -66.28243140547603,-17.40224543725929,0 -66.28243046674299,-17.402245557854,0 -66.28241669146523,-17.40224754126059,0 -66.28241594468311,-17.40224764848681,0 -66.28237480834537,-17.40225355718761,0 -66.28237378832848,-17.40225370037557,0 -66.28237028749705,-17.402254198343,0 -66.28236949411527,-17.40225431209942,0 -66.2823663343315,-17.4022547695172,0 -66.28235992979901,-17.40225482994406,0 -66.28235884968112,-17.40225484443545,0 -66.28235704338525,-17.40225485398978,0 -66.28235567165308,-17.40225486616003,0 -66.28235278910249,-17.40225490073102,0 -66.28204104584039,-17.40225794318617,0 -66.28203994168008,-17.40225795293851,0 -66.28202388835285,-17.40225811002079,0 -66.28202276521812,-17.40225812171916,0 -66.28202081985275,-17.40225814039859,0 -66.28202073076467,-17.40225818603575,0 -66.28202060958176,-17.40225822792825,0 -66.28202054646557,-17.40225830313282,0 -66.28202046809599,-17.40225836159361,0 -66.28202038130392,-17.40225840726209,0 -66.28202028840977,-17.4022584385163,0 -66.28202019061862,-17.40225845151432,0 -66.28202009076786,-17.4022584484996,0 -66.2820199934331,-17.40225843063691,0 -66.2820199015251,-17.40225839520994,0 -66.28201981786492,-17.40225834556433,0 -66.28201974358429,-17.40225828281789,0 -66.28201968211083,-17.40225820811973,0 -66.28201964907637,-17.40225815144751,0 -66.28168685939033,-17.40226139756115,0 -66.28168590333742,-17.40226140822834,0 -66.28168115244448,-17.40226145535025,0 -66.28168028369592,-17.40226146334927,0 -66.28167698494281,-17.40226149609456,0 -66.28167586180834,-17.40226150779098,0 -66.28167275195682,-17.40226153925322,0 -66.28167161908885,-17.40226154916332,0 -66.281357422403,-17.4022646166236,0 -66.28135251031992,-17.40226422774932,0 -66.28135074398773,-17.40226409728467,0 -66.28134098610357,-17.40226334083364,0 -66.28133994123793,-17.40226326209697,0 -66.28133790436313,-17.40226310203717,0 -66.28133211239373,-17.40225873917531,0 -66.28133076166284,-17.40225771978776,0 -66.28133021089538,-17.40225730604723,0 -66.28132856758363,-17.40225572871933,0 -66.28132800945014,-17.40225519196187,0 -66.28132633215522,-17.40225358330365,0 -66.28132565328517,-17.40225294182647,0 -66.28131998638588,-17.40224749812268,0 -66.2813088341276,-17.40217644584591,0 -66.28130409539119,-17.4021419447732,0 -66.28130165369416,-17.40211295334822,0 -66.28130138112347,-17.4021054539308,0 -66.28130097044831,-17.40209417253495,0 -66.2813005597821,-17.40208289096982,0 -66.2813001468263,-17.40207160805867,0 -66.2813001246068,-17.40207097553502,0 -66.28129973615096,-17.40206032666279,0 -66.28129960908522,-17.40205684633855,0 -66.28129958351623,-17.40205616857125,0 -66.28129949130029,-17.40205363126566,0 -66.28129943497953,-17.40205208274212,0 -66.28129937580175,-17.40205049449361,0 -66.28129934291846,-17.40204953496593,0 -66.28129913042309,-17.40204395121907,0 -66.28129902279264,-17.40204396959454,0 -66.28129892467219,-17.40204396605187,0 -66.28129882735398,-17.40204394708667,0 -66.28129873542179,-17.40204391331265,0 -66.28129865004811,-17.40204386309222,0 -66.28129857748168,-17.40204380092013,0 -66.28129851486879,-17.40204372565506,0 -66.28129846902399,-17.40204364235072,0 -66.28129843649525,-17.40204355151119,0 -66.28129842239136,-17.40204345706454,0 -66.28129842377717,-17.40204336338028,0 -66.28129844410482,-17.40204326995431,0 -66.28129847928297,-17.40204318169158,0 -66.2812985315668,-17.40204310137879,0 -66.28129859807007,-17.40204303007905,0 -66.28129867417638,-17.40204296938292,0 -66.28129876154246,-17.40204292372259,0 -66.28129885613409,-17.40204289414545,0 -66.28129895394957,-17.4020428794945,0 -66.2812990520782,-17.40204288248611,0 -66.2812991007373,-17.4020428919687,0 -66.28129733848399,-17.40199451546046,0 -66.28129456120014,-17.40197524750039,0 -66.28129138918879,-17.40195324519167,0 -66.28128556307266,-17.40191280725335,0 -66.28128288005082,-17.40187466986629,0 -66.28129903888953,-17.40182666393675,0 -66.28130688747687,-17.40181878964829,0 -66.28130792068895,-17.40181775426077,0 -66.28174144802833,-17.4018112046306,0 -66.28193483592406,-17.401808282666,0 -66.28226905454419,-17.4018027730096,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00017">
+					<name>EV14-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV14-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>17</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>14</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV14-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Fabrica Manaco</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.2928540743912,-17.40180178760653,0 -66.29285493544477,-17.40183789793541,0 -66.29243180572487,-17.40184719769579,0 -66.2923911934686,-17.40184809024512,0 -66.29238479131726,-17.40184823094663,0 -66.29238393035675,-17.40181212062858,0 -66.2928540743912,-17.40180178760653,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00018">
+					<name>EV15-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV15-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>15</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV15-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Cementerio de Vinto</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.30244440194458,-17.40159111758188,0 -66.30244521832306,-17.40162722912931,0 -66.30202207481896,-17.40163604636549,0 -66.30197505887988,-17.40163702600253,0 -66.30197424259445,-17.401600914466,0 -66.30239799291101,-17.40159208467364,0 -66.30244440194458,-17.40159111758188,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00023">
+					<name>EV16-EM</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV16-EM</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>23</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>16</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV16-EM</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Vinto</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Estación Municipal</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>9070,317087</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.3172355190657,-17.39930868347318,0 -66.31686741094359,-17.39933138002853,0 -66.31665881435936,-17.39934255164036,0 -66.31607248324423,-17.39935600719046,0 -66.31605013842075,-17.39934480938764,0 -66.31605101411903,-17.39908280093854,0 -66.31606534524175,-17.39900673191043,0 -66.31610075330708,-17.39874181855068,0 -66.31683764573374,-17.3986946363548,0 -66.31706810955977,-17.39867844884087,0 -66.31708304031348,-17.39892661798946,0 -66.31721631918073,-17.39891991144851,0 -66.31740899550826,-17.39890861109033,0 -66.3174280734153,-17.39929803616435,0 -66.3172355190657,-17.39930868347318,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00019">
+					<name>EV17-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV17-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>17</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV17-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Alto Mirador</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>174,999872</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.32329943353943,-17.40309251610341,0 -66.32331923426304,-17.40308371671403,0 -66.32332555218879,-17.40308090946607,0 -66.32332584647723,-17.4030807787047,0 -66.32332930826436,-17.40307924052648,0 -66.32333677771739,-17.4030947360112,0 -66.32352683637673,-17.4034889905724,0 -66.32351617383578,-17.40349372729535,0 -66.32349696133981,-17.40350226560538,0 -66.32348934777296,-17.40348647359994,0 -66.323488658388,-17.4034850423504,0 -66.32347720801472,-17.40346129021141,0 -66.3234711360153,-17.40344869357978,0 -66.32347096128339,-17.40344833225038,0 -66.32340287612494,-17.4033070981783,0 -66.32340224670376,-17.40330579251735,0 -66.32332589300351,-17.40314740290696,0 -66.3233257029368,-17.40314700863145,0 -66.32331918679481,-17.40313349150546,0 -66.32329943353943,-17.40309251610341,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00020">
+					<name>EV18-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV18-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>18</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV18-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Centro de Salud Vinto Chico</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>175,000342</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.32617776080852,-17.41451325963065,0 -66.3261686476268,-17.41455755350693,0 -66.32610823263452,-17.4148511910603,0 -66.32609573826973,-17.41491191405202,0 -66.32608662494322,-17.41495620836181,0 -66.32606521473666,-17.41495214967255,0 -66.32605432698338,-17.41495008535464,0 -66.32606344034102,-17.414905789394,0 -66.32607073433306,-17.41487033859307,0 -66.32607077153388,-17.4148701581748,0 -66.32608810065618,-17.41478593351425,0 -66.32608811046127,-17.41478588818434,0 -66.3261082179036,-17.41468815976218,0 -66.32610830631801,-17.41468773004115,0 -66.32612803751891,-17.4145918301235,0 -66.32612806411173,-17.41459170096412,0 -66.32613634973046,-17.41455143052209,0 -66.32614546475689,-17.4145071345738,0 -66.32615635306045,-17.41450919889105,0 -66.32617776080852,-17.41451325963065,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00021">
+					<name>EV19-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV19-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>21</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV19-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Sipe Sipe 1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía doble</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>200,000325</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.32755808352678,-17.43102610738777,0 -66.3275668223603,-17.43107047094659,0 -66.32757376188971,-17.43110570563689,0 -66.32757380918893,-17.43110594534108,0 -66.32759119770489,-17.43119423243712,0 -66.32759139131383,-17.43119521335963,0 -66.32760713968821,-17.43127517268638,0 -66.32760724259455,-17.43127569857904,0 -66.32762427456346,-17.4313621692669,0 -66.32762430736076,-17.43136233728862,0 -66.32763672664998,-17.43142539035524,0 -66.32764546435956,-17.43146975389882,0 -66.32763455748638,-17.43147173352609,0 -66.32761939874847,-17.43147448510451,0 -66.32760849072672,-17.43147646471483,0 -66.32759975360838,-17.43143210062743,0 -66.32759795237227,-17.43142295791102,0 -66.3275977821481,-17.43142209167994,0 -66.3275767010504,-17.43131506457557,0 -66.32757653187109,-17.43131420151736,0 -66.32755734128168,-17.43121677034454,0 -66.32755721740662,-17.43121614019409,0 -66.3275339777089,-17.43109814534049,0 -66.32753392182229,-17.43109786156514,0 -66.32752984938362,-17.43107718176655,0 -66.32752111001719,-17.43103281599518,0 -66.32753201628971,-17.43103083636298,0 -66.32754717685621,-17.43102808553888,0 -66.32755808352678,-17.43102610738777,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00013">
+					<name>EV20-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV20-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>13</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>20</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV20-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Cotapachi - Sipe Sipe 2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>139,993132</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.32828189822037,-17.44081329881593,0 -66.32824962437458,-17.44080702244757,0 -66.32832433976047,-17.44045300630123,0 -66.32835660414337,-17.4404592825232,0 -66.32828189822037,-17.44081329881593,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00012">
+					<name>EV21-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV21-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>21</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV21-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Campos de Amiraya</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>139,982365</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.33015231049573,-17.45369450167065,0 -66.33012218485506,-17.45370723741415,0 -66.32997044230103,-17.45337669616198,0 -66.33000057742997,-17.45336395153216,0 -66.33015231049573,-17.45369450167065,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00011">
+					<name>EV22-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV22-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>22</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV22-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Sipe Sipe 3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Apeadero vía simple</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>139,992492</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.33138726217044,-17.46457981316709,0 -66.33135438648229,-17.46458161148955,0 -66.33133302248568,-17.46422098610955,0 -66.33136589810817,-17.46421918778179,0 -66.33138726217044,-17.46457981316709,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+				<Placemark id="ID_00022">
+					<name>EV23-EM</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EV23-EM</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>22</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Id</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Num</td>
+
+<td>23</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Codigo</td>
+
+<td>EV23-EM</td>
+
+</tr>
+
+<tr>
+
+<td>Designaci</td>
+
+<td>Suticollo</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Tipologia</td>
+
+<td>Estación Municipal</td>
+
+</tr>
+
+<tr>
+
+<td>SupM2</td>
+
+<td>2064,896025</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#PolyStyle0080</styleUrl>
+					<MultiGeometry>
+						<Polygon>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-66.3321204897476,-17.47186296704893,0 -66.33212142692737,-17.4718764424622,0 -66.33212537279513,-17.47193317885443,0 -66.33212223335516,-17.47195359200953,0 -66.33213404653546,-17.47197349486992,0 -66.33215801232809,-17.47201387245271,0 -66.33217248299098,-17.47203825262614,0 -66.33218823010448,-17.47206478335614,0 -66.33220024713562,-17.47208502963982,0 -66.33220046113139,-17.47209387925933,0 -66.33220066964286,-17.47210250208124,0 -66.33220072029386,-17.47210459671248,0 -66.33220137812015,-17.47213180059651,0 -66.3322021606145,-17.47215838713069,0 -66.33220431594805,-17.47219163490393,0 -66.33220614192646,-17.47221980210778,0 -66.33220947903411,-17.47227127971315,0 -66.33221154888025,-17.47230320877874,0 -66.33221178255924,-17.47234723415495,0 -66.33218444810106,-17.47235386568931,0 -66.33215207518209,-17.47236171958451,0 -66.33204674157167,-17.47238727407034,0 -66.33204621751119,-17.47238740121604,0 -66.33204438829844,-17.47238784577936,0 -66.33204331910873,-17.4723881042723,0 -66.33203224955054,-17.47239078941156,0 -66.33203140168794,-17.47239099465279,0 -66.33203047662364,-17.47239121926924,0 -66.33203044537598,-17.47239122685655,0 -66.33202517838957,-17.47239250574255,0 -66.33202455129596,-17.4723926566222,0 -66.33202424349554,-17.47239273186357,0 -66.33202370515608,-17.47239286188651,0 -66.33202348437904,-17.47239291679917,0 -66.33202283651642,-17.47239307401445,0 -66.3320217572717,-17.47239333587874,0 -66.33202168276162,-17.47239335395762,0 -66.33201651640037,-17.47239460750597,0 -66.33201637426745,-17.47239465459208,0 -66.33201622589942,-17.47239467801872,0 -66.33201449963509,-17.4723950952567,0 -66.33201453405468,-17.47239557086268,0 -66.3319916190713,-17.47240105363904,0 -66.33197869074169,-17.47240414937433,0 -66.33196870635172,-17.47240653864781,0 -66.33194579939763,-17.47241202207755,0 -66.33192288668408,-17.47241750652954,0 -66.33191651130089,-17.47241903223568,0 -66.33191639629098,-17.47241889050729,0 -66.33190015661856,-17.47242283302898,0 -66.33189993182182,-17.4724228878875,0 -66.33187209031837,-17.47242965220545,0 -66.33186812256326,-17.47243060708975,0 -66.33186525855444,-17.47243130241967,0 -66.3318636557895,-17.47240958005522,0 -66.33184868315691,-17.47220514732101,0 -66.33184838145385,-17.47220102793969,0 -66.33182498652754,-17.47188159922949,0 -66.33183217545977,-17.471881115416,0 -66.33195122984053,-17.47187310304501,0 -66.33205797398706,-17.47186591909187,0 -66.3321204897476,-17.47186296704893,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</MultiGeometry>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder id="FeatureLayer0">
+			<name>1.4 Paradas Linea Amarilla (Diseño Final)</name>
+			<Snippet maxLines="0"></Snippet>
+			<Folder>
+				<name>Ubicación Parada (Diseño Final)</name>
+				<open>1</open>
+				<Placemark id="ID_00011">
+					<name>EA1-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EA1-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Num</td>
+
+<td>1</td>
+
+</tr>
+
+<tr>
+
+<td>Codigo</td>
+
+<td>EA1-AVS</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Designaci</td>
+
+<td>Av. Aroma</td>
+
+</tr>
+
+<tr>
+
+<td>Progresiva</td>
+
+<td>0+850</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Distancia</td>
+
+<td>850</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_tram210</styleUrl>
+					<Point>
+						<coordinates>-66.16085701298134,-17.41109562516667,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00012">
+					<name>EA2-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EA2-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>12</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Num</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Codigo</td>
+
+<td>EA2-AVD</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Designaci</td>
+
+<td>Aeropuerto</td>
+
+</tr>
+
+<tr>
+
+<td>Progresiva</td>
+
+<td>1+720</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Distancia</td>
+
+<td>870</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_tram210</styleUrl>
+					<Point>
+						<coordinates>-66.16816319754571,-17.40757852607974,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00001">
+					<name>EA3-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EA3-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Num</td>
+
+<td>3</td>
+
+</tr>
+
+<tr>
+
+<td>Codigo</td>
+
+<td>EA3-AVD</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Designaci</td>
+
+<td>Villa Coronilla</td>
+
+</tr>
+
+<tr>
+
+<td>Progresiva</td>
+
+<td>2+760</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Distancia</td>
+
+<td>1040</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_tram210</styleUrl>
+					<Point>
+						<coordinates>-66.16828209484343,-17.40047355478484,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00002">
+					<name>EA4-EM</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EA4-EM</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Num</td>
+
+<td>4</td>
+
+</tr>
+
+<tr>
+
+<td>Codigo</td>
+
+<td>EA4-EM</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Designaci</td>
+
+<td>Elfec</td>
+
+</tr>
+
+<tr>
+
+<td>Progresiva</td>
+
+<td>3+415</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Distancia</td>
+
+<td>655</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_tram210</styleUrl>
+					<Point>
+						<coordinates>-66.16711484651915,-17.39443392360333,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00003">
+					<name>EA5-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EA5-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>3</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Num</td>
+
+<td>5</td>
+
+</tr>
+
+<tr>
+
+<td>Codigo</td>
+
+<td>EA5-AVS</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Designaci</td>
+
+<td>Parque de la Familia</td>
+
+</tr>
+
+<tr>
+
+<td>Progresiva</td>
+
+<td>4+260</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Distancia</td>
+
+<td>845</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_tram210</styleUrl>
+					<Point>
+						<coordinates>-66.16441262229641,-17.3873069368766,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00004">
+					<name>EA6-EM</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EA6-EM</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>4</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Num</td>
+
+<td>6</td>
+
+</tr>
+
+<tr>
+
+<td>Codigo</td>
+
+<td>EA6-EM</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Designaci</td>
+
+<td>Stadium Félix Capriles</td>
+
+</tr>
+
+<tr>
+
+<td>Progresiva</td>
+
+<td>4+890</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Distancia</td>
+
+<td>360</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_tram210</styleUrl>
+					<Point>
+						<coordinates>-66.16159294536256,-17.38231838551802,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00005">
+					<name>EA7-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EA7-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>5</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Num</td>
+
+<td>7</td>
+
+</tr>
+
+<tr>
+
+<td>Codigo</td>
+
+<td>EA7-AVS</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Designaci</td>
+
+<td>Recoleta</td>
+
+</tr>
+
+<tr>
+
+<td>Progresiva</td>
+
+<td>5+900</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Distancia</td>
+
+<td>1010</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_tram210</styleUrl>
+					<Point>
+						<coordinates>-66.15254844258538,-17.37972436192577,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00006">
+					<name>EA8-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EA8-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>6</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Num</td>
+
+<td>8</td>
+
+</tr>
+
+<tr>
+
+<td>Codigo</td>
+
+<td>EA8-AVD</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Designaci</td>
+
+<td>Muyurina</td>
+
+</tr>
+
+<tr>
+
+<td>Progresiva</td>
+
+<td>6+740</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Distancia</td>
+
+<td>880</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_tram210</styleUrl>
+					<Point>
+						<coordinates>-66.14452810444223,-17.37781282748532,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00007">
+					<name>EA9-AVD</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EA9-AVD</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>7</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Num</td>
+
+<td>9</td>
+
+</tr>
+
+<tr>
+
+<td>Codigo</td>
+
+<td>EA9-AVD</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Designaci</td>
+
+<td>Usip</td>
+
+</tr>
+
+<tr>
+
+<td>Progresiva</td>
+
+<td>7+750</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Distancia</td>
+
+<td>970</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_tram210</styleUrl>
+					<Point>
+						<coordinates>-66.13605432401832,-17.37483799148481,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00008">
+					<name>EA10-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EA10-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>8</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Num</td>
+
+<td>10</td>
+
+</tr>
+
+<tr>
+
+<td>Codigo</td>
+
+<td>EA10-AVS</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Designaci</td>
+
+<td>Sedcam - ABC</td>
+
+</tr>
+
+<tr>
+
+<td>Progresiva</td>
+
+<td>8+490</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Distancia</td>
+
+<td>700</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_tram210</styleUrl>
+					<Point>
+						<coordinates>-66.1303582194008,-17.37587589833332,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00009">
+					<name>EA11-AVS</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EA11-AVS</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>9</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Num</td>
+
+<td>11</td>
+
+</tr>
+
+<tr>
+
+<td>Codigo</td>
+
+<td>EA11-AVS</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Designaci</td>
+
+<td>Zona Paraiso</td>
+
+</tr>
+
+<tr>
+
+<td>Progresiva</td>
+
+<td>9+100</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Distancia</td>
+
+<td>650</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_tram210</styleUrl>
+					<Point>
+						<coordinates>-66.12601030417888,-17.37910020177699,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="ID_00010">
+					<name>EA12-EM</name>
+					<Snippet maxLines="0"></Snippet>
+					<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>EA12-EM</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Num</td>
+
+<td>12</td>
+
+</tr>
+
+<tr>
+
+<td>Codigo</td>
+
+<td>EA12-EM</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Designaci</td>
+
+<td>El Castillo</td>
+
+</tr>
+
+<tr>
+
+<td>Progresiva</td>
+
+<td>10+030</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Distancia</td>
+
+<td>930</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+					<styleUrl>#msn_homegardenbusiness010</styleUrl>
+					<Point>
+						<coordinates>-66.12178579985756,-17.38584778146755,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
