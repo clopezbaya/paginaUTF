@@ -5,8 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 //conectando la base de datos
-
-mongoose.connect('mongodb://localhost/paginautf')
+mongoose.connect('mongodb://localhost/pagina_utf',{useNewUrlParser: true})
 .then(db => console.log("db conectada")).catch(err => console.log(err));
 
 // importing routes

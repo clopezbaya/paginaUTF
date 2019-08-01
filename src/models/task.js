@@ -6,6 +6,6 @@ const taskSchema = new Schema({
                     email : String,
                     telefono : Number,
                     mensaje : String
-                  })
-//module.exports = mongoose.model('task',taskSchema);
-module.exports = mongoose.model('mapasUbicaciones',{});
+                  });
+
+module.exports = mongoose.model('task',taskSchema);

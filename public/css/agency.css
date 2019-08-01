@@ -23,6 +23,10 @@ body {
   margin: 0px auto;
 }
 
+.check{
+  padding: 20px;
+}
+
 .maps{
   width: 70%;
   height: 500px;
