@@ -1,4 +1,4 @@
-var localizacion = L.map('localizacion').setView([-17.409864,-66.154264], 14);
+var localizacion = L.map('localizacion').setView([-17.409864,-66.154264], 13);
 L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png ').addTo(localizacion);
 
 // Ruta Linea Roja
@@ -25,6 +25,23 @@ L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png ').addTo(localizac
     })
     .addTo(localizacion);
 
+// icono estaciones Municipales
+
+var iconoEstacioMunicipal = new L.icon({
+  iconUrl: '/img/iconosTren/estacionMunicipal.png',
+  iconSize: [30, 30],
+  iconAnchor: [10, 20]
+});
+
+// Marcador e icono Estacion Central
+
+var iconoEstacionCentral = new L.icon({
+  iconUrl: '/img/iconosTren/estacionCentral.jpg',
+  iconSize: [40, 40],
+  iconAnchor: [10, 20]
+});
+
+L.marker([-17.409864,-66.154264],{icon:iconoEstacionCentral}).bindPopup("<h3>Estacion Central</h3>").addTo(localizacion);
 
 $(document).ready(function(){
   var apLR1 ,apLR2, apLR3, apLR4, apLR5, apLR6, emALR;
@@ -44,7 +61,7 @@ $(document).ready(function(){
               apLR4 = L.marker([-17.440185,-66.144411],{icon:customIcon}).addTo(lineaRoja);
               apLR5 = L.marker([-17.444695,-66.139497],{icon:customIcon}).addTo(lineaRoja);
               apLR6 = L.marker([-17.447257,-66.135061],{icon:customIcon}).addTo(lineaRoja);
-              emALR = L.marker([-17.451484,-66.129807],{icon:customIcon}).addTo(lineaRoja);
+              emALR = L.marker([-17.451484,-66.129807],{icon:iconoEstacioMunicipal}).addTo(lineaRoja);
             $(this).attr("checked", returnVal);
         }
         else{
@@ -80,21 +97,21 @@ $(document).ready(function(){
             apLV6 = L.marker([-17.399869,-66.208942],{icon:customIcon}).addTo(lineaVerde);
             apLV7 = L.marker([-17.399556,-66.219941],{icon:customIcon}).addTo(lineaVerde);
             apLV8 = L.marker([-17.399275,-66.229841],{icon:customIcon}).addTo(lineaVerde);
-            emCLV = L.marker([-17.399067,-66.243200],{icon:customIcon}).addTo(lineaVerde);
+            emCLV = L.marker([-17.399067,-66.243200],{icon:iconoEstacioMunicipal}).addTo(lineaVerde);
             apLV9 = L.marker([-17.398624,-66.252467],{icon:customIcon}).addTo(lineaVerde);
             apLV10 = L.marker([-17.398780,-66.265791],{icon:customIcon}).addTo(lineaVerde);
             apLV11 = L.marker([-17.400887,-66.274170],{icon:customIcon}).addTo(lineaVerde);
-            emQLV = L.marker([-17.402045,-66.281871],{icon:customIcon}).addTo(lineaVerde);
+            emQLV = L.marker([-17.402045,-66.281871],{icon:iconoEstacioMunicipal}).addTo(lineaVerde);
             apLV12 = L.marker([-17.401825,-66.292619],{icon:customIcon}).addTo(lineaVerde);
             apLV13 = L.marker([-17.401614,-66.302210],{icon:customIcon}).addTo(lineaVerde);
-            emVLV = L.marker([-17.399049,-66.316700],{icon:customIcon}).addTo(lineaVerde);
+            emVLV = L.marker([-17.399049,-66.316700],{icon:iconoEstacioMunicipal}).addTo(lineaVerde);
             apLV14 = L.marker([-17.403291,-66.323413],{icon:customIcon}).addTo(lineaVerde);
             apLV15 = L.marker([-17.414732,-66.326116],{icon:customIcon}).addTo(lineaVerde);
             apLV16 = L.marker([-17.431251,-66.327583],{icon:customIcon}).addTo(lineaVerde);
             apLV17 = L.marker([-17.440633,-66.328303],{icon:customIcon}).addTo(lineaVerde);
             apLV18 = L.marker([-17.453536,-66.330061],{icon:customIcon}).addTo(lineaVerde);
             apLV19 = L.marker([-17.464400,-66.331360],{icon:customIcon}).addTo(lineaVerde);
-            emSLV = L.marker([-17.472144,-66.332013],{icon:customIcon}).addTo(lineaVerde);
+            emSLV = L.marker([-17.472144,-66.332013],{icon:iconoEstacioMunicipal}).addTo(lineaVerde);
               $(this).attr("checked", returnVal);
           }
           else{
@@ -148,7 +165,7 @@ $(document).ready(function(){
               apLA9 = L.marker([-17.374838,-66.136054],{icon:customIcon}).addTo(lineaAmarilla);
               apLA10 = L.marker([-17.375876,-66.130358],{icon:customIcon}).addTo(lineaAmarilla);
               apLA11 = L.marker([-17.379100,-66.126010],{icon:customIcon}).addTo(lineaAmarilla);
-              emCLA = L.marker([-17.385848,-66.121786],{icon:customIcon}).addTo(lineaAmarilla);
+              emCLA = L.marker([-17.385848,-66.121786],{icon:iconoEstacioMunicipal}).addTo(lineaAmarilla);
                 $(this).attr("checked", returnVal);
             }
             else{
