@@ -29,7 +29,7 @@ L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png ').addTo(localizac
 
 var iconoEstacioMunicipal = new L.icon({
   iconUrl: '/img/iconosTren/estacionMunicipal.png',
-  iconSize: [30, 30],
+  iconSize: [35, 35],
   iconAnchor: [10, 20]
 });
 
