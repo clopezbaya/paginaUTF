@@ -41,17 +41,36 @@
           <h3 class="section-subheading text-muted">Rutas y paradas linea Roja, Amarilla y Roja</h3>
         </div>
       </div>
+
       <div class="row">
-        <div class="col-lg-4 text-center check">
-          <input type="checkbox" id="plroja" value="plroja"> Paradas Linea Roja
+      	<button class="btn btn-primary col-lg-4 bot" type="button" data-toggle="collapse" data-target="#apeaderos" aria-expanded="false" aria-controls="collapseExample">
+		    Apeaderos
+		  </button>
+		<div class="collapse col-md-12" id="apeaderos">
+		  <div class="card card-body" id="apeaderos">
+		    <div class="row">
+		    	<div class="col-lg-4 text-center check">
+          <input class="form-check-input chb" type="checkbox" id="plroja" value="plroja">
+		  <label class="form-check-label chb" for="defaultCheck2">
+			    Linea Roja
+		  </label>
+
         </div>
-        <div class="col-lg-4 text-center check">
-          <input type="checkbox" id="plverde" value="plverde"> Paradas Linea Verde
+        <div class="col-lg-4 text-center">
+          <input class="form-check-input chb" type="checkbox" id="plverde" value="plverde">
+          <label class="form-check-label chb" for="defaultCheck2">
+			    Linea Verde
+		  </label>
         </div>
-        <div class="col-lg-4 text-center check">
-          <input type="checkbox" id="plamarilla" value="plamarilla"> Paradas Linea Amarilla
+        <div class="col-lg-4 text-center">
+          <input class="form-check-input chb" type="checkbox" id="plamarilla" value="plamarilla">
+          <label class="form-check-label chb" for="defaultCheck2">
+			    Linea Amarilla
+		  </label>
         </div>
-      </div>
+		    </div>
+		  </div>
+		</div>
 
       <div class="row maps">
         <div class="col-lg-12 text-center" id="localizacion">
